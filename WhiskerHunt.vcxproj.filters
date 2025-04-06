@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{985a7f79-2327-4480-9ee6-635ecdb8e670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{847d759e-e57f-4674-84ad-7b329b05b013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\player">
+      <UniqueIdentifier>{045b79e8-9224-4d6f-8708-1b2fc5272feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\cat">
+      <UniqueIdentifier>{af72336f-c9be-4fbc-9096-1df9b1c055d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\treats">
+      <UniqueIdentifier>{86124940-33b9-4a0b-b269-d5ee50c864dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\background">
+      <UniqueIdentifier>{e5289a1d-5f7d-49db-bd57-e125efd32802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\screens">
+      <UniqueIdentifier>{ec01dfc3-522f-43b6-9b02-35ccd3d2eced}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="WhiskerHunt\assets\player\player_idle.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\cat\cat_sprites.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_idle_down.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_idle_hurt.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_idle_left.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_idle_right.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_idle_up.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="WhiskerHunt\assets\player\player_walk.png">
+      <Filter>assets\player</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\collectables1.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat1.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat2.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat3.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat4.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat5.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat6.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat7.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat8.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\collectables.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat1.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat2.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat3.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat4.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat5.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat6.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat7.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\cat\cat8.png">
+      <Filter>assets\cat</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\background\bg_main.png">
+      <Filter>assets\background</Filter>
+    </Image>
+    <Image Include="x64\Debug\assets\treats\treat9.png">
+      <Filter>assets\treats</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WhiskerHunt\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiskerHunt\src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiskerHunt\src\Player.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiskerHunt\src\Treat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiskerHunt\src\Follower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WhiskerHunt\src\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiskerHunt\src\Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiskerHunt\src\Treat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiskerHunt\src\Follower.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
